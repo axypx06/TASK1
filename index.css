@@ -1,0 +1,50 @@
+.price,
+.popularity {
+  color: #343738;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.loading-message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+h1 {
+  color: #d9ecf5;
+  font-size: 300%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #125a70;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background-color: #d9ecf5;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
